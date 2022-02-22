@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.thewheeldeal.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_nextFragment22"
+            app:destination="@id/nextFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nextFragment2"
+        android:name="com.example.thewheeldeal.NextFragment"
+        android:label="NextFragment" >
+        <action
+            android:id="@+id/action_nextFragment2_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_nextFragment2_to_sign_up"
+            app:destination="@id/sign_up" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.thewheeldeal.Login"
+        android:label="Login" >
+        <action
+            android:id="@+id/action_login_to_sign_up"
+            app:destination="@id/sign_up" />
+        <action
+            android:id="@+id/action_login_to_landing"
+            app:destination="@id/landing" />
+    </fragment>
+    <fragment
+        android:id="@+id/sign_up"
+        android:name="com.example.thewheeldeal.sign_up"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_sign_up_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_sign_up_to_landing"
+            app:destination="@id/landing" />
+    </fragment>
+    <fragment
+        android:id="@+id/landing"
+        android:name="com.example.thewheeldeal.Landing"
+        android:label="fragment_landing"
+        tools:layout="@layout/fragment_landing" />
+</navigation>

@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">the wheel deal</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="let_s_go_string">Let\'s Go</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="premium_cars_string">Premium cars</string>
+    <string name="affordable_luxury_cars_for_you_string">Affordable luxury cars for you</string>
+    <string name="only_at_the_wheel_deal_string">Only at the wheel deal</string>
+    <string name="todo_string" tools:ignore="DuplicateDefinition">TODO</string>
+    <string name="welcome_back_string">Welcome Back</string>
+    <string name="sign_up_string">Sign Up</string>
+    <string name="dont_have_an_account_string">Dont have an account?</string>
+    <string name="forgot_your_password_string">forgot your password?</string>
+    <string name="email_string">Email</string>
+    <string name="password_string">Password</string>
+    <string name="let_s_get_started_string">Let\'s get started</string>
+    <string name="first_name_string">First Name</string>
+    <string name="login_string">Login</string>
+    <string name="by_registering_you_are_agreeing_to_the_string">By registering you are agreeing to the</string>
+    <string name="terms_conditions_string"><![CDATA[Terms & Conditions]]></string>
+    <string name="already_have_an_account_string">Already have an account?</string>
+    <string name="sign_up2_string">Sign Up</string>
+    <string name="last_name_string">last Name</string>
+    <string name="id_number_stirng">ID number</string>
+    <string name="contact_string">Contact</string>
+    <string name="confirm_password_string">Confirm Password</string>
+    <string name="yes_i_would_like_to_receive_latest_information_via_mail_string">Yes I would like to receive latest information via mail</string>
+
+</resources>

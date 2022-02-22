@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1083918336767",
+    "project_id": "thewheeldeal-4b617",
+    "storage_bucket": "thewheeldeal-4b617.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083918336767:android:798d4585934c97fecdc2ca",
+        "android_client_info": {
+          "package_name": "com.example.thewheeldeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083918336767-rla6vdf21pqah2geriojjk622d32oat8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA0Dgn9oxvfGePiH9xr7yCIcv9dP38_5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083918336767-rla6vdf21pqah2geriojjk622d32oat8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
