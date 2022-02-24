@@ -99,9 +99,3 @@ class Login : Fragment() {
         private const val TAG = "EmailPassword"
     }
 }
-
-
-
-
-
-}

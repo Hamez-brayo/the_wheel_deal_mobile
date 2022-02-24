@@ -48,6 +48,7 @@
 
         android:typeface="normal"
         app:cornerRadius="34dp"
+        android:textAllCaps="false"
         app:iconPadding="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,6 +69,7 @@
         android:fontFamily="@font/roboto_bold"
 
         android:text="@string/sign_up_string"
+        android:textAllCaps="false"
         android:textColor="@color/my_apptheme"
         android:textSize="20sp"
         android:typeface="normal"

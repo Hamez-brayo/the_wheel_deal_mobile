@@ -33,6 +33,9 @@ android {
 
 }
 
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application'
+
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'

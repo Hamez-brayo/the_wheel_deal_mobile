@@ -63,6 +63,7 @@
         android:typeface="normal"
         app:cornerRadius="34dp"
         app:iconPadding="34dp"
+        android:textAllCaps="false"
         android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
