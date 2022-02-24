@@ -19,12 +19,29 @@
         android:name="com.example.thewheeldeal.NextFragment"
         android:label="NextFragment" >
         <action
-            android:id="@+id/action_nextFragment2_to_login"
-            app:destination="@id/login" />
-        <action
             android:id="@+id/action_nextFragment2_to_sign_up"
             app:destination="@id/sign_up" />
+        <action
+            android:id="@+id/action_nextFragment2_to_login"
+            app:destination="@id/login" />
     </fragment>
+    <fragment
+        android:id="@+id/sign_up"
+        android:name="com.example.thewheeldeal.sign_up"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_sign_up_to_landing"
+            app:destination="@id/landing" />
+        <action
+            android:id="@+id/action_sign_up_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/landing"
+        android:name="com.example.thewheeldeal.Landing"
+        android:label="fragment_landing"
+        tools:layout="@layout/fragment_landing" />
     <fragment
         android:id="@+id/login"
         android:name="com.example.thewheeldeal.Login"
@@ -36,21 +53,4 @@
             android:id="@+id/action_login_to_landing"
             app:destination="@id/landing" />
     </fragment>
-    <fragment
-        android:id="@+id/sign_up"
-        android:name="com.example.thewheeldeal.sign_up"
-        android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" >
-        <action
-            android:id="@+id/action_sign_up_to_login"
-            app:destination="@id/login" />
-        <action
-            android:id="@+id/action_sign_up_to_landing"
-            app:destination="@id/landing" />
-    </fragment>
-    <fragment
-        android:id="@+id/landing"
-        android:name="com.example.thewheeldeal.Landing"
-        android:label="fragment_landing"
-        tools:layout="@layout/fragment_landing" />
 </navigation>
